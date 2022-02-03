@@ -6,13 +6,19 @@ import java.util.Set;
 public class Main {
 	
 	public static void main(String[] args) {
+		
 		Scanner sc= new Scanner(System.in);
+		
 		Articulo a= new Articulo();
+		
 		System.out.println("Introduzca el nombre : ");
+		
 		a.setNombre(sc.nextLine());
 		sc.nextLine();
+		
 		System.out.println("Introduzca el precio en € : ");
 		a.setPrecio(sc.nextInt());
+		
 		System.out.println("Introduzca existencias restantes : ");
 		a.setCuantosQuedan(sc.nextInt());
 	

@@ -1,6 +1,7 @@
 package articulo;
 
 public class Articulo {
+	
 	 private String nombre;
 	 private int precio;
 	 private final static int iva=21;
@@ -9,6 +10,7 @@ public class Articulo {
 	 
 	 
 	public Articulo(String nombre, int precio, int cuantosQuedan) {
+		
 		super();
 		
 		this.setNombre(nombre);
@@ -43,18 +45,21 @@ public class Articulo {
 		
 	}
 	public int getPrecio() {
+		
 		return precio;
 	}
 	public void setPrecio(int precio) {
+		
 		this.precio = precio;
 	}
 	public Articulo(String nombre, int precio) {
 		super();
+		
 		this.nombre = nombre;
 		this.precio = precio;
 	}
 	public Articulo() {
-		// TODO Auto-generated constructor stub
+
 	}
 	public static int getIva() {
 		return iva;
