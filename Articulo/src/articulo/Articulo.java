@@ -11,7 +11,7 @@ public class Articulo {
 	 
 	public Articulo(String nombre, int precio, int cuantosQuedan) {
 		
-		super();
+		super(Esto es una puta mierda);
 		
 		this.setNombre(nombre);
 		
